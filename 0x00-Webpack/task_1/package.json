@@ -22,11 +22,11 @@
   "author": "Youssef abdelouali",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.50.0",
-    "webpack-cli": "^4.8.0"
+    "webpack": "^5.95.0",
+    "webpack-cli": "^4.10.0"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
+    "jquery": "^3.7.1",
     "lodash": "^4.17.21"
   }
 }
