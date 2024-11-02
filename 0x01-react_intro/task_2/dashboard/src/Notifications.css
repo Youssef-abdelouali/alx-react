@@ -1,0 +1,31 @@
+:root {
+  --color-brand: #e01d3f;
+  --color-background: #fff;
+  --color-text: #333;
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.Notifications {
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid var(--color-brand);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .Notifications {
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+  }
+}
