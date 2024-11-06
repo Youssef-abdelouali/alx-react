@@ -19,7 +19,7 @@
   "author": "Youssef Abdelouali",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.95.0",
+    "webpack": "^5.96.1",
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
