@@ -1,14 +1,14 @@
-import { shallow } from 'enzyme';
-import React from 'react';
-import Login from './Login';
+import React from "react";
+import Header from "./Header";
+import { shallow } from "enzyme";
 
-describe("Test Login Component", () => {
-    test("renders without crashing", () => {
-        const wrapper = shallow(<Login />)
-    })
-    test("renders 2 input tags and 2 label tags", () => {
-        const wrapper = shallow(<Login />)
-        expect(wrapper.find('input').length).toBe(2)
-        expect(wrapper.find('label').length).toBe(2)
-    })
-})
+const wrapper = shallow(<Header />);
+describe("Header component tests", () => {
+  it("render without crashing", () => {
+    expect(wrapper.exists()).toEqual(true);
+  });
+  it("should render a h1", () => {
+    expect(wrapper.exists("img")).toEqual(true);
+    expect(wrapper.containsMatchingElement(<h1>School dashboard</h1>)).toEqual(true);
+  });
+});
